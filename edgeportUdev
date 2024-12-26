@@ -1,0 +1,10 @@
+#EdgePortUDEV
+#Used to assign "friendly" names to each of the ports on a edeport 8 USB to serial adapter.
+ACTION=="add", SUBSYSTEMS=="usb-serial", DRIVERS=="edgeport_8", ATTRS{port_number}=="0", SYMLINK+="ttyUSBEP0"
+ACTION=="add", SUBSYSTEMS=="usb-serial", DRIVERS=="edgeport_8", ATTRS{port_number}=="1", SYMLINK+="ttyUSBEP1"
+ACTION=="add", SUBSYSTEMS=="usb-serial", DRIVERS=="edgeport_8", ATTRS{port_number}=="2", SYMLINK+="ttyUSBEP2"
+ACTION=="add", SUBSYSTEMS=="usb-serial", DRIVERS=="edgeport_8", ATTRS{port_number}=="3", SYMLINK+="ttyUSBEP3"
+ACTION=="add", SUBSYSTEMS=="usb-serial", DRIVERS=="edgeport_8", ATTRS{port_number}=="4", SYMLINK+="ttyUSBEP4"
+ACTION=="add", SUBSYSTEMS=="usb-serial", DRIVERS=="edgeport_8", ATTRS{port_number}=="5", SYMLINK+="ttyUSBEP5"
+ACTION=="add", SUBSYSTEMS=="usb-serial", DRIVERS=="edgeport_8", ATTRS{port_number}=="6", SYMLINK+="ttyUSBEP6"
+ACTION=="add", SUBSYSTEMS=="usb-serial", DRIVERS=="edgeport_8", ATTRS{port_number}=="7", SYMLINK+="ttyUSBEP7"
