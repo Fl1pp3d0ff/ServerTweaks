@@ -1,6 +1,5 @@
 #!/bin/bash
-#echo "====================> Changing to LIVE dir."
-#cd live
+echo ">>>>>>THIS SCRIPT SHOULD BE RUN IN YOUR MASTODON LIVE DIRECTORY<<<<<<"
 echo "====================> Stashing customizations."
 git stash
 echo "====================> Pulling new code."
